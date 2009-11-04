@@ -13,7 +13,7 @@ Capistrano::Configuration.instance.load do
   end
   
   # Checks if a symlink exists on the remote machine.
-  def symlink_exists?(full_path)
+  def remote_symlink_exists?(full_path)
     remote_filetest_passes?('-L', full_path)
   end
   
