@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email = %q{justin@phq.org}
 
   s.extra_rdoc_files = [
-    "README.rdoc"
+    "README.md"
   ]
 
   s.files = [
