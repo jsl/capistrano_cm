@@ -9,13 +9,13 @@ Gem::Specification.new do |s|
   s.email = %q{justin@phq.org}
 
   s.extra_rdoc_files = [
-    "README.md"
+    "README.rdoc"
   ]
 
   s.files = [
     ".gitignore",
      "MIT-LICENSE",
-     "README.md",
+     "README.rdoc",
      "capistrano-cm.gemspec",
      "lib/capistrano/jsl/cm.rb"
   ]
