@@ -1,5 +1,5 @@
 unless Capistrano::Configuration.respond_to?(:instance)
-  abort "capistrano/jsl/configuration_management requires Capistrano 2"
+  abort "capistrano/jsl/cm requires Capistrano 2"
 end
 
 require 'digest/md5'
